@@ -1,6 +1,18 @@
 {
 	"version": "0.2.0",
 	"configurations": [
+		const myPackage = require('@codertocat/hello-world-npm');
+myPackage.helloWorld();
+
+		{
+			"type": "firefox",
+			"request": "launch",
+			"reAttach": true,
+			"name": "Launch add-on",
+			"addonPath": "${workspaceFolder}"
+		},
+		"dependencies": {
+    "@codertocat/hello-world-npm": "1.0.0"
 		{
 			"name": "Launch Extension",
 			"type": "extensionHost",
